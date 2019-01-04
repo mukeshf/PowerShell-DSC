@@ -22,3 +22,5 @@
     }   
 }  
 IISWebServer
+
+Start-DscConfiguration -Path IISWebServer -Wait -Verbose
